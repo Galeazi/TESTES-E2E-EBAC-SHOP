@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Carlos",
+        "sobrenome": "Rodrigues",
+        "empresa": "LG",
+        "pais": "Brasil",
+        "endereço": "Rua Santos Futebol CLubo 343",
+        "complemento": "Casa 01",
+        "cidade": "Osasco",
+        "estado": "São Paulo",
+        "cep": "06360240",
+        "telefone": "1136052433",
+        "email": "rodrigues.robson@LG.com"
+    },
+    {
+        "nome": "Laura",
+        "sobrenome": "Flavia Libertina",
+        "empresa": "Google",
+        "pais": "Brasil",
+        "endereço": "Rua Luiz scott 111",
+        "complemento": "Casa 07",
+        "cidade": "Barueri",
+        "estado": "São Paulo",
+        "cep": "06440260",
+        "telefone": "11997849556",
+        "email": "laura.ibertina@boll.com.br"
+    },
+    {
+        "nome": "Cezar",
+        "sobrenome": "Augusto",
+        "empresa": "Floricultura Luiz",
+        "pais": "Brasil",
+        "endereço": "Rua souza de lima 89",
+        "complemento": "casa 2",
+        "cidade": "São Jose dos Campos",
+        "estado": "São Paulo",
+        "cep": "06448298",
+        "telefone": "1139859677",
+        "email": "FLoricultura.flor@terra.com.br"
+    }
+]

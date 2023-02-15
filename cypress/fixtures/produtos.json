@@ -1,0 +1,20 @@
+[
+    {
+        "produto": "Abominable Hoodie",
+        "tamanho": "XS",
+        "cor": "Green",
+        "quantidade": "4"
+    },
+    {
+        "produto": "Abominable Hoodie",
+        "tamanho": "L",
+        "cor": "Red",
+        "quantidade": "8"
+    },
+    {
+        "produto": "Ajax Full-Zip Sweatshirt",
+        "tamanho": "XL",
+        "cor": "Blue",
+        "quantidade": "30"
+    }
+]

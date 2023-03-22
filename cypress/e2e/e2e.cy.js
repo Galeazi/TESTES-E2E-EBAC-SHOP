@@ -1,7 +1,8 @@
 /// <reference types="cypress" />
-import perfilCheckout from "../support/page_objects/perfilCheckout"
-const dadosProduto = require("../fixtures/produtos.json")
-const dadosPerfilCheckout = require("../fixtures/perfilsCheckout.json")
+
+const dadosProduto = require('../fixtures/produtos.json')
+const dadosPerfilCheckout = require('../fixtures/perfilsCheckout.json')
+
 
 context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     /*  Como cliente 
@@ -18,14 +19,14 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
 
-        perfilCheckout.addProdutos(
+        cy.AddProdutos(
             dadosProduto[1].produto,
             dadosProduto[1].tamanho,
             dadosProduto[1].cor,
             dadosProduto[1].quantidade,
         )
         //checkout
-        perfilCheckout.checkout(
+        cy.Checkout(
             dadosPerfilCheckout[2].nome,
             dadosPerfilCheckout[2].sobrenome,
             dadosPerfilCheckout[2].empresa,
